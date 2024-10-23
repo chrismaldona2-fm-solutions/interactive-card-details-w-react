@@ -30,7 +30,10 @@ export default function Footer() {
       <span className={styles.divisor}>|</span>
       <div>
         <span>View the code:</span>
-        <a href="https://react.dev/" target="_blank">
+        <a
+          href="https://github.com/chrismaldona2-fm-solutions/interactive-card-details-w-react.git"
+          target="_blank"
+        >
           Repository
         </a>
       </div>
