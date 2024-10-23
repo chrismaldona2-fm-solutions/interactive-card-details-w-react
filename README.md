@@ -5,7 +5,7 @@ This repository contains the solution to a Frontend Mentor project that involves
 ## Live Demo
 
 You can view the live version of the project deployed on Netlify at:
-[NetlifyApp](https:///)
+[NetlifyApp](https://interactive-card-details-with-react.netlify.app)
 
 ## Desktop Preview
 
