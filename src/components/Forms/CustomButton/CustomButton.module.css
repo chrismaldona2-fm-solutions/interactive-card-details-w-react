@@ -1,0 +1,26 @@
+.button {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--dark-purple);
+  font-family: var(--default-font);
+  color: var(--white);
+  cursor: pointer;
+  transition: box-shadows 0.5s ease-in-out, background-color 0.35s ease-in-out,
+    scale 0.35s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--purple);
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0px 0px 1.5rem 0px #dbbcdf;
+}
+
+.button:active {
+  scale: 0.98;
+}

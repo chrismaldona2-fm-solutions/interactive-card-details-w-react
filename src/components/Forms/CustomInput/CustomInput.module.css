@@ -1,0 +1,52 @@
+.group {
+  font-family: var(--default-font);
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.label {
+  color: var(--dark-purple);
+  font-weight: 600;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.085rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.input--double {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input {
+  font-family: inherit;
+  font-weight: 700;
+  color: var(--dark-purple);
+  width: 100%;
+  padding: 0.65rem 1.1rem;
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  box-shadow: inset 0 0 0 1px var(--grey);
+  transition: box-shadow 0.3s ease;
+}
+
+.input::placeholder {
+  font-weight: 600;
+  color: var(--grey);
+}
+
+.input.input--invalid {
+  box-shadow: inset 0 0 0 1.5px var(--pink);
+}
+
+.input:focus {
+  box-shadow: inset 0 0 0 2px var(--light-purple);
+}
+
+.error {
+  font-size: 0.85rem;
+  color: var(--pink);
+}

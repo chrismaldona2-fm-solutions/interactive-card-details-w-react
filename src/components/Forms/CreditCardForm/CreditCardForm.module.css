@@ -1,0 +1,65 @@
+.form,
+.confirmed-message {
+  width: 90%;
+  max-width: 26rem;
+  margin: auto;
+
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  gap: 1.5rem;
+}
+
+.double-group {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.double-group > div {
+  flex: 1;
+}
+
+.confirmed-message {
+  align-items: center;
+  font-family: var(--default-font);
+  gap: 2.5rem;
+  text-align: center;
+}
+
+.confirmed-message__text {
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.confirmed-message__text h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--dark-purple);
+  letter-spacing: 0.15rem;
+}
+
+.confirmed-message__text p {
+  color: var(--dark-grey);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 56.25rem) {
+  .form,
+  .confirmed-message {
+    width: 90%;
+    max-width: 26rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-block: 4rem;
+  }
+}

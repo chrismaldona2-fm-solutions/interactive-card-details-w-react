@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --default-font: "Space Grotesk", sans-serif;
+  --white: #fff;
+  --grey: #cac8cc;
+  --dark-grey: #828082;
+  --light-purple: #a57dc1;
+  --purple: #56107e;
+  --dark-purple: #310c46;
+  --pink: #f34e4e;
+}

@@ -1,0 +1,47 @@
+.footer {
+  font-family: var(--default-font);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: inset 0px 6px 8px -6px rgba(0, 0, 0, 0.1);
+}
+
+.footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.footer span {
+  color: var(--dark-purple);
+}
+
+.footer svg {
+  width: 2rem;
+}
+
+.footer a {
+  display: flex;
+  color: var(--light-purple);
+}
+
+.footer a:focus {
+  outline-color: var(--light-purple);
+}
+
+.footer path {
+  fill: var(--light-purple);
+}
+
+@media screen and (max-width: 28.125rem) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .divisor {
+    display: none;
+  }
+}
